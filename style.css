@@ -1,5 +1,25 @@
-.img-fluid{
-    margin: 0;
-    padding: 0;
-    width: 100%;
+.background-image {
+    background-image: url('https://i.ibb.co/1Tz9YZq/unsplash-d-JCBtd-Uu74.jpg'); /* URL da imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    height: 400px; /* Altura do contêiner (ajuste conforme necessário) */
+    color: white;
 }
+
+/* Ajuste a altura para diferentes tamanhos de tela */
+@media (max-width: 768px) {
+    .background-image {
+        height: 300px; /* Altura menor para telas pequenas */
+    }
+}
+
+@media (max-width: 576px) {
+    .background-image {
+        height: 200px; /* Altura ainda menor para telas muito pequenas */
+    }
+}
+#logoDnc{
+    margin: 3rem;
+}
+
